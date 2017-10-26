@@ -1,0 +1,56 @@
+*
+{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+ul
+{
+	list-style:none;
+}
+
+#slider 
+{
+	width:780px;
+	height:330px;
+	margin:0 auto;
+}
+.slider
+{
+	position:relative;
+	overflow:none;
+	overflow:hidden;
+}
+
+.slider ul li
+{
+	width:780px;
+	height:330px;
+	float:left;
+}
+
+.prev
+{
+	position: absolute;
+	top:150px;
+	width:50px;
+	height:50px;
+	border-radius:25px;
+	outline:none;
+	background-color:transparent;
+}
+
+.next
+{
+	width:50px;
+	height:50px;
+	bottom:181px;
+	position: relative;
+	float:right;
+	margin-left:20px;
+	border-radius:50px;
+    outline:none;
+    
+    background-color:transparent;
+}
